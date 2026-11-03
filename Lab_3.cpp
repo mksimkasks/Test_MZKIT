@@ -1,10 +1,7 @@
 ﻿#include <stdio.h>
 #include <math.h>
-#include <Windows.h>
 
 int main() {
-	SetConsoleCP(1251); SetConsoleOutputCP(1251);
-
 	int k = 1; float sum = 0.0, error;
 
 	printf("Введіть значення похибки: ");
